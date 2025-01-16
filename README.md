@@ -59,11 +59,15 @@ Next, I have to promote this machine as a DC by configuring it as a new forest a
 <br />
 <br />
 Then select "Add new forest" and in "Root domain name" I'll type "mydomain.com". Then "Next":  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/cd2483ab-f31c-4648-829e-8f1517288a2d)
+
 <br />
 <br />
 Type in a password of your choosing on the next screen like so then hit "Next":  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/65f8de1c-71bc-4c06-96ac-a7d9db5e1c1f)
+
 <br />
 <br />
 Leave "Create DNS delegation" unchecked and click "Next". Hit "Next" until you reach this screen. On this screen, click "Install". The machine will restart after the installation:  <br/>
