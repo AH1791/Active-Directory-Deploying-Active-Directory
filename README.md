@@ -107,19 +107,27 @@ Then, create a password and uncheck "User must change password at next logon" an
 <br />
 <br />
 Jane Doe is now apart of the "_ADMINS" OU, but isn't actually an admin. To make her an admin right-click on her name > Properties > Member Of > Add... > Enter "domain admins" > Check Names > OK > Apply > OK:  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/5975425d-9a1b-4d86-b6a0-85a222c196c4)
+
 <br />
 <br />
 Now, we can log out of DC and log back in using Jane's credentials:  <br/>
-<img s
+
+![image](https://github.com/user-attachments/assets/d3a6f37e-9b51-4acf-81fd-f3fc36b0523c)
+
 <br />
 <br />
 Once logged in, log into client-1 VM, if not already. Here I'll join this client to the domain by right-clicking the start menu > Systems > Rename this PC (advanced) > Change > Select "Domain" and enter "mydomain.com" and hit "OK":  <br/>
-<img 
+
+ ![image](https://github.com/user-attachments/assets/8bbe75d1-a545-4980-a61f-a48dd1ced48c)
+
 <br />
 <br />
 It'll ask for an account with permission to join the domain. We can use our admin's credentials for Jane here. Then a pop up saying welcome to the domain will appear and the machine will try and restart:  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/73d4e306-ec9b-4204-a132-d306ecfeeeb8)
+
 <br />
 <br />
 After the restart, client-1 is now a member of the domain. To check, in the DC machine start seach bar, search for "Active Directory Users and Computers" > mydomain.com > Computers > client-1 should be listed:  <br/>
