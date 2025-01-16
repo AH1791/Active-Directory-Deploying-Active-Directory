@@ -53,7 +53,9 @@ Select "Active Directory Domain Services" > Next > Next > Next > Now select "Res
 <br />
 <br />
 Next, I have to promote this machine as a DC by configuring it as a new forest as "mydomain.com" (this can be anything, mydomain.com is just easy to remember) So, to do this, I will click on the flag icon with the caution symbol, near the top-right of the Server Manager Dashboard and select "Promote this server to a domain controller":  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/387eeaa5-a9d7-40b9-b9e0-44c3f49dbaa3)
+
 <br />
 <br />
 Then select "Add new forest" and in "Root domain name" I'll type "mydomain.com". Then "Next":  <br/>
