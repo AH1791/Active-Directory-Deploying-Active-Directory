@@ -30,18 +30,26 @@ This project is a continuation of [Active Directory: Preparing Infrastructure in
 
 <p align="center">
 To start, in the DC (Domain Controller), bring up the Server Manager dashboard, if it's not up already: <br/>
-<img 
+
+ ![image](https://github.com/user-attachments/assets/47f407ed-56ac-47db-b031-797f4c54b0fa)
+
 <br />
 <br />
 Here, click on "Add roles and features" > Next > Next > For server selection there should only be one to select: <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/063d9c4d-1db8-4201-bca3-a5852b69173a)
+
 <br />
 Now, check "Active Directory Domain Services" > Click "Add Features":  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/6981a9da-ae22-43ac-a773-52e455e7de9b)
+
 <br />
 <br />
 Select "Active Directory Domain Services" > Next > Next > Next > Now select "Restart the destination server automatically if required" and click "Install": <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/f46526bb-dcb8-4bd2-b8fa-acbabbf5f4d6)
+
 <br />
 <br />
 Next, I have to promote this machine as a DC by configuring it as a new forest as "mydomain.com" (this can be anything, mydomain.com is just easy to remember) So, to do this, I will click on the flag icon with the caution symbol, near the top-right of the Server Manager Dashboard and select "Promote this server to a domain controller":  <br/>
