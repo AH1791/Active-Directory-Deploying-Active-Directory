@@ -71,11 +71,15 @@ Type in a password of your choosing on the next screen like so then hit "Next": 
 <br />
 <br />
 Leave "Create DNS delegation" unchecked and click "Next". Hit "Next" until you reach this screen. On this screen, click "Install". The machine will restart after the installation:  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/16f1446c-1ab8-4b83-90b1-421aa9b1cfee)
+
 <br />
 <br />
 It may take some time to restart, but once it does, sign back in using "mydomain.com\labuser" (if you're using the same names as me) as the username. Use the password you set for "labuser". Here we have to sign in as "mydomain.com\labuser" instead of just "labuser", because now we've promoted this machine to a DC and it needs to know the context of who we're siging in as (someone in the domain, or a local user). I want to sign in as a user on the domain, so I specify that with the leading "mydomain.com\" part at sign in:  <br/>
-<img
+
+![image](https://github.com/user-attachments/assets/fd41bbdf-f6f6-4c91-992e-1bda88e1ea74)
+
 <br />
 <br />
 Now, we'll create an admin user. To do this, in the start search bar, search for "Active Directory Users and Computers":  <br/>
