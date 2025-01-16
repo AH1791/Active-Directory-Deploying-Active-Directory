@@ -83,11 +83,15 @@ It may take some time to restart, but once it does, sign back in using "mydomain
 <br />
 <br />
 Now, we'll create an admin user. To do this, in the start search bar, search for "Active Directory Users and Computers":  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/f7c772d8-e16c-4141-8a56-6ea197ed0d30)
+
 <br />
 <br />
 Right click on "mydomain.com" and select "New" > "Organizational Unit" and name it EXACTLY "_EMPLOYEES" (In a future project we will run a script that uses this name to work). Do the same steps here to create an OU (Organizational Unit) named "_ADMINS":  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/dd204c75-0c15-4704-b6d1-b2728f9aebe8)
+
 <br />
 <br />
 Next, create a new user in "_ADMINS" by right-clicking on "_ADMINS" > New > User and fill it out like so:  <br/>
