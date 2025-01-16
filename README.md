@@ -95,11 +95,15 @@ Right click on "mydomain.com" and select "New" > "Organizational Unit" and name 
 <br />
 <br />
 Next, create a new user in "_ADMINS" by right-clicking on "_ADMINS" > New > User and fill it out like so:  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/279ac997-1c16-4271-be5e-625d629d5258)
+
 <br />
 <br />
 Then, create a password and uncheck "User must change password at next logon" and check "Password never expires" (You probably wouldn't do this in real life, but we'll do it for this lab where nothing's really at stake):  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/fb29674b-4a54-42cd-8525-609eb57f3f33)
+
 <br />
 <br />
 Jane Doe is now apart of the "_ADMINS" OU, but isn't actually an admin. To make her an admin right-click on her name > Properties > Member Of > Add... > Enter "domain admins" > Check Names > OK > Apply > OK:  <br/>
